@@ -1,3 +1,23 @@
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  margin: 0;
+  background-color: #FBAB7E;
+  background-image: linear-gradient(0deg, #FBAB7E 0%, #F7CE68 81%);
+  background-attachment: fixed;
+}
+.clear_sunset {
+  background-color: #FBAB7E;
+  background-image: linear-gradient(0deg, #FBAB7E 0%, #F7CE68 81%);
+}
+.clear_sky_blue {
+  background-image: linear-gradient(to top, #fed6e3  0%, #a8edea 100%);
+}
+.rainy_sky {
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}
 .App {
   text-align: center;
 }
