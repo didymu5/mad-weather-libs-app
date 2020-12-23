@@ -3,11 +3,11 @@ import useGeolocation from 'react-hook-geolocation'
 import './App.css'
 import useOpenWeather from './useOpenWeather'
 
-function App () {
+function App ({appid}) {
   const bodyEl = useRef(document.body)
   const geolocation = useGeolocation({ enableHighAccuracy: false })
   const weather = useOpenWeather({
-    appid: 'f6115fe478db60271b0cfefb3e97b0cd',
+    appid: appid,
     lat: geolocation.latitude,
     lon: geolocation.longitude
   })
